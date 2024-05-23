@@ -20,3 +20,7 @@ print(kaggle.api.dataset_list_files('mayankanand2701/zomato-stock-price-dataset'
 
 kaggle.api.dataset_metadata('mayankanand2701/zomato-stock-price-dataset',path='.')
 df = pd.read_csv('/users/kramchurn/Desktop/notebook part 2/python 2023/Zomato Dataset.csv')
+
+
+datasets = kaggle.api.dataset_list(search = 'flight price')
+print(datasets) #print all datasets with the words flight price
