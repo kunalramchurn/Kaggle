@@ -1,5 +1,8 @@
-# Kaggle
-Steps to setup Kaggle API
+# Accessing Kaggle datasets via API
+
+This workflow allows us to access Kaggle datasets via API, instead of manual downloads, which is time-consuming, and avoid storage for heavy files locally.
+
+##### Steps to setup Kaggle API
 
 Change current directory to the kaggle directory.
 ```
